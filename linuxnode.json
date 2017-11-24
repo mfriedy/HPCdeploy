@@ -119,6 +119,7 @@
     {
       "type": "Microsoft.Network/networkInterfaces",
       "name": "[parameters('nicName')]",
+	  "apiVersion": "[parameters('apiVersion')]",
       "location": "[resourceGroup().location]",
       "properties": {
         "ipConfigurations": [
