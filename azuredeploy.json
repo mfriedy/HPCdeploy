@@ -214,7 +214,7 @@
       }
     },
     "currentComputeNodeImage": "[variables('computeNodeImages')[parameters('computeNodeImage')]]",
-    "artifactsBaseUrl": "https://raw.githubusercontent.com/mfriedy/HPCdeploy"
+    "artifactsBaseUrl": "https://raw.githubusercontent.com/mfriedy/HPCdeploy/master"
   },
   "resources": [
     {
