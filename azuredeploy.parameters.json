@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "atn34v2"
+        },
+        "adminUsername": {
+            "value": "hpcadmin"
+        },
+        "headNodeVMSize": {
+            "value": "Standard_F4"
+        },
+        "computeNodeImage": {
+            "value": "ComputeNodeWithExcel"
+        },
+        "computeNodeNumber": {
+            "value": 50
+        },
+        "computeNodeVMSize": {
+            "value": "Standard_F2"
+        }
+    }
+}
