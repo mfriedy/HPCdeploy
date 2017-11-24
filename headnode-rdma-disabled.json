@@ -68,6 +68,7 @@
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[parameters('vmName')]",
       "location": "[resourceGroup().location]",
+	  "apiVersion": "[parameters('apiVersion')]",
       "properties": {
         "hardwareProfile": {
           "vmSize": "[parameters('vmSize')]"

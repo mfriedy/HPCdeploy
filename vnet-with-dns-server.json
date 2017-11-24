@@ -46,6 +46,7 @@
       "name": "[parameters('virtualNetworkName')]",
       "type": "Microsoft.Network/virtualNetworks",
       "location": "[resourceGroup().location]",
+	  "apiVersion": "[parameters('apiVersion')]",
       "properties": {
         "addressSpace": {
           "addressPrefixes": [

@@ -25,6 +25,7 @@
   "resources": [
     {
       "type": "Microsoft.Compute/availabilitySets",
+	  "apiVersion": "[parameters('apiVersion')]",
       "name": "[concat(parameters('availabilitySetNamePrefix'), padLeft(string(copyIndex()), 3, '0'))]",
       "location": "[resourceGroup().location]",
       "copy": {

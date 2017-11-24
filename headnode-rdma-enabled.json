@@ -67,6 +67,7 @@
     {
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[parameters('vmName')]",
+	  "apiVersion": "[parameters('apiVersion')]",
       "location": "[resourceGroup().location]",
       "properties": {
         "availabilitySet": {
